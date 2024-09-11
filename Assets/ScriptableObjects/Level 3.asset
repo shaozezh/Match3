@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdbc7b67bcb2f24aa99dea548cbfd03, type: 3}
+  m_Name: Level 3
+  m_EditorClassIdentifier: 
+  width: 8
+  height: 10
+  boardLayout:
+  - x: 0
+    y: 0
+    tiles: 1
+  - x: 7
+    y: 0
+    tiles: 1
+  - x: 0
+    y: 9
+    tiles: 1
+  - x: 7
+    y: 9
+    tiles: 1
+  - x: 3
+    y: 4
+    tiles: 1
+  - x: 3
+    y: 5
+    tiles: 1
+  - x: 4
+    y: 4
+    tiles: 1
+  - x: 4
+    y: 5
+    tiles: 1
+  - x: 1
+    y: 0
+    tiles: 0
+  - x: 2
+    y: 0
+    tiles: 0
+  - x: 3
+    y: 0
+    tiles: 0
+  - x: 4
+    y: 0
+    tiles: 0
+  - x: 5
+    y: 0
+    tiles: 0
+  - x: 6
+    y: 0
+    tiles: 0
+  - x: 0
+    y: 1
+    tiles: 0
+  - x: 1
+    y: 1
+    tiles: 0
+  - x: 2
+    y: 1
+    tiles: 0
+  - x: 3
+    y: 1
+    tiles: 0
+  - x: 4
+    y: 1
+    tiles: 0
+  - x: 5
+    y: 1
+    tiles: 0
+  - x: 6
+    y: 1
+    tiles: 0
+  - x: 7
+    y: 1
+    tiles: 0
+  blocks:
+  - {fileID: 4153290318038505291, guid: bf957e4dc3135e147929d8f582fd953e, type: 3}
+  - {fileID: 3920618421500165750, guid: afa3be2bbc1efcf4dabe19eee4400d82, type: 3}
+  - {fileID: 7319872284824440946, guid: e817fdfcb78a36e4c8f87dca820b6275, type: 3}
+  - {fileID: 6228621160595918292, guid: 22c4654ea95806e4dbf34df2f95548ee, type: 3}
+  scoreGoals: 00000000d0070000a00f0000
+  endGameRequirements:
+    gameType: 0
+    counterValue: 60
+  levelGoals:
+  - numberNeeded: 14
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: c430f75636aca6442ae7ced8622eea48, type: 3}
+    matchValue: breakable
+  - numberNeeded: 14
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: 73be31b43671a48419b4262ad1d3a869, type: 3}
+    matchValue: fire
+  - numberNeeded: 14
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: aedb725fc2a139d4ba1384d06a0badd6, type: 3}
+    matchValue: wood
