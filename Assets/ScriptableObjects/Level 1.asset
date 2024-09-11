@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdbc7b67bcb2f24aa99dea548cbfd03, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  width: 6
+  height: 6
+  boardLayout: []
+  blocks:
+  - {fileID: 4153290318038505291, guid: bf957e4dc3135e147929d8f582fd953e, type: 3}
+  - {fileID: 3920618421500165750, guid: afa3be2bbc1efcf4dabe19eee4400d82, type: 3}
+  - {fileID: 7319872284824440946, guid: e817fdfcb78a36e4c8f87dca820b6275, type: 3}
+  scoreGoals: 000000002c01000058020000
+  endGameRequirements:
+    gameType: 0
+    counterValue: 10
+  levelGoals:
+  - numberNeeded: 6
+    numberCollected: 24
+    goalSprite: {fileID: 21300000, guid: 73be31b43671a48419b4262ad1d3a869, type: 3}
+    matchValue: fire
+  - numberNeeded: 6
+    numberCollected: 12
+    goalSprite: {fileID: 21300000, guid: e39febd05ac08a54e89646a92cbbdc7e, type: 3}
+    matchValue: ice
+  - numberNeeded: 6
+    numberCollected: 8
+    goalSprite: {fileID: 21300000, guid: aedb725fc2a139d4ba1384d06a0badd6, type: 3}
+    matchValue: wood
